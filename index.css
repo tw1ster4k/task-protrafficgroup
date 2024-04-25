@@ -1,0 +1,61 @@
+body{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-column{
+    width: 30%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.photo{
+    height: 100%;
+    width: 100%;
+}
+
+.card__picture{
+    border: 1px solid #838775;
+    padding: 8px;
+}
+
+.picture_size{
+    width: 385.33px;
+}
+
+.card_title{
+    font-family: "Unbounded";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40.8px;
+    color: #19211b;
+    height: 0px;
+}
+
+.card_description{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25.2px;
+    color: #19211b;
+}
+
+.content-column__transition{
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
